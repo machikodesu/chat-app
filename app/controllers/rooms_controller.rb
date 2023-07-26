@@ -11,6 +11,7 @@ class RoomsController < ApplicationController
       render :new, status: :unprocessable_entity
     end
   end
+  
   def index
   end
 
